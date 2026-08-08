@@ -1,14 +1,4 @@
--- ============================================================================
--- TwinTech — Database Schema v1 (PostgreSQL)
--- ----------------------------------------------------------------------------
--- Reference: TwinTech_Database_Schema.md
--- Conventions:
---   * uuid PK (gen_random_uuid()) on every table
---   * created_at / updated_at timestamptz default now() on every table
---   * RLS enabled + grants on every table
---   * enums lowercase; tables snake_case; business codes stored as text
---   * generated columns for denormalised / derived values
--- ============================================================================
+
 
 -- 0. Extensions --------------------------------------------------------------
 create extension if not exists pgcrypto;
